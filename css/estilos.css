@@ -1,0 +1,103 @@
+                @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital@1&family=Roboto&display=swap');
+                body {
+                    margin: 0%;
+                    padding: 0%;
+                    overflow-x: hidden;
+                }
+                
+                nav {
+                    margin: auto 0;
+                    display: inline-block;
+                    width: 100%;
+                    height: 120px;
+                    background-color: #0D6EFD;
+                    /* background-color: rgb(8, 157, 250);*/
+                    padding: 0%;
+                    text-align: center;
+                    justify-content: center;
+                }
+                
+                div {
+                    margin: 22px;
+                    text-align: center;
+                    /*Centro la imagen*/
+                }
+                
+                li.navbar-center {
+                    justify-content: center;
+                    list-style: none;
+                    color: rgb(255, 255, 255);
+                    /*Saco los puntos de lista*/
+                }
+                
+                li a {
+                    color: rgb(255, 255, 255);
+                    font-family: "roboto", sans-serif;
+                }
+                
+                ol {
+                    display: inline-flex;
+                    color: rgb(255, 255, 255);
+                    /*Pongo los elementos en fila*/
+                }
+                
+                nav.navbar {
+                    margin: auto;
+                    display: inline-flex;
+                    width: 100%;
+                    background-color: rgb(1, 7, 11);
+                    padding: 0%;
+                    text-align: center;
+                }
+                /* cambiar tipo de letra */
+                
+                nav.navbar ul.nav li {
+                    font-family: 'Roboto', sans-serif;
+                }
+                
+                a {
+                    color: rgb(255, 255, 255);
+                    margin: 2px;
+                    justify-content: right;
+                    text-decoration: none;
+                    font-size: 20px;
+                    font-weight: 300;
+                }
+                
+                li a :hover {
+                    /*color: #ffffff; */
+                    font-weight: 600;
+                    text-decoration: underline;
+                }
+                
+                li {
+                    list-style: none;
+                }
+                
+                h1 {
+                    font-family: 'Roboto', sans-serif;
+                    padding-left: 13%;
+                    text-align: justify;
+                }
+                
+                p {
+                    margin: 4px;
+                    padding-left: 13%;
+                    padding-right: 13%;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 19px;
+                    font-weight: 200;
+                    justify-content: center;
+                }
+                
+                h3 {
+                    font-family: 'Cuprum', sans-serif;
+                    text-align: center;
+                    font-size: 27px;
+                }
+                
+                h4 {
+                    font-family: 'Cuprum', sans-serif;
+                    text-align: center;
+                    font-size: 22px;
+                }
