@@ -102,3 +102,7 @@
                     text-align: center;
                     font-size: 22px;
                 }
+                .navbar navbar-brand bg-primary{
+                    background-color: #0D6EFD;
+                    width: 100%;
+                }
